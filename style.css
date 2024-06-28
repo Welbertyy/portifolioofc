@@ -1,0 +1,90 @@
+/* Reset das margens e paddings */
+* {
+  margin: 0;
+  padding: 0;
+}
+
+/* Define a fonte padrão para todo o site */
+body {
+  font-family: Arial, sans-serif;
+}
+
+/* Define a cor de fundo para todo o site */
+body {
+  background-color: #000000;
+}
+
+/* Centraliza o conteúdo */
+.center {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+}
+
+/* Define as propriedades do título principal */
+h1 {
+  color: rgb(116, 110, 110);
+  font-size: 36px;
+  font-weight: bold;
+  margin-top: 50px;
+  margin-bottom: 20px;
+  text-align: center;
+}
+
+/* Define as propriedades do subtítulo */
+h2 {
+  color: rgb(116, 110, 110);
+  font-size: 24px;
+  font-weight: bold;
+  margin-top: 40px;
+  margin-bottom: 20px;
+  text-align: center;
+}
+
+/* Define as propriedades do parágrafo */
+p {
+  color: rgb(116, 110, 110);
+  font-size: 18px;
+  line-height: 1.5;
+  margin-bottom: 40px;
+  text-align: center;
+  width: 80%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+/* Define as propriedades da lista de contatos */
+ul {
+  color: rgb(116, 110, 110);
+  list-style: none;
+  margin-top: 40px;
+  margin-bottom: 40px;
+  width: 80%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+/* Define as propriedades dos ícones na lista de contatos */
+ul li {
+  color: rgb(95, 73, 73);
+  display: block;
+  text-align: center;
+  margin-bottom: 20px;
+  list-style: none;
+}
+
+ul li img {
+  margin-right: 10px;
+}
+
+/* Define as propriedades do link na lista de contatos */
+ul li a {
+  color: #7c7878;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+ul li a:hover {
+  color: #5a2c2c;
+}
